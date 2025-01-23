@@ -108,7 +108,7 @@ namespace WABank.Controllers
 
         //==================DEPOSIT==================\\
         public async Task<IActionResult> Deposit(int? id)
-        {
+        { 
             if (id == null || id.ToString() == string.Empty)
             {
                 return RedirectToAction("Deposit");
